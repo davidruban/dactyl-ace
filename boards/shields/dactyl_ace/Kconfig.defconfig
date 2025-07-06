@@ -11,7 +11,7 @@ endif
 if SHIELD_DACTYL_ACE_RIGHT
 
     config ZMK_KEYBOARD_NAME
-        default "Dactyl Ace Right"
+        default "Dactyl Ace R"
 
 endif
 
