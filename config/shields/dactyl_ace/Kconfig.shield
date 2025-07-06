@@ -1,9 +1,7 @@
-//config SHIELD_DACTYLACE
-//    def_bool $(shields_list_contains, DactylAce)
-
-
+# No whitespace after the comma or in your part name!
 config SHIELD_DACTYL_ACE_LEFT
     def_bool $(shields_list_contains,dactyl_ace_left)
 
-// config SHIELD_DACTYL_ACE_RIGHT
-//    def_bool $(shields_list_contains,dactyl_ace_right)
+# No whitespace after the comma or in your part name!
+config SHIELD_DACTYL_ACE_RIGHT
+    def_bool $(shields_list_contains,dactyl_ace_right)

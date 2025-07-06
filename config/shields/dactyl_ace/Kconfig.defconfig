@@ -2,22 +2,22 @@ if SHIELD_DACTYL_ACE_LEFT
 
     config ZMK_KEYBOARD_NAME
         default "Dactyl Ace"
-
-    config ZMK_SPLIT_BLE_ROLE_CENTRAL
+    
+    config ZMK_SPLIT_ROLE_CENTRAL
         default y
 
 endif
 
-// if SHIELD_DACTYL_ACE_RIGHT
-// 
-//     config ZMK_KEYBOARD_NAME
-//         default "Dactyl Ace Secondary"
-// 
-// endif
-// 
-// if SHIELD_DACTYL_ACE_LEFT || SHIELD_DACTYL_ACE_RIGHT
-// 
-//     config ZMK_SPLIT
-//         default y
-// 
-// endif
+if SHIELD_DACTYL_ACE_RIGHT
+
+    config ZMK_KEYBOARD_NAME
+        default "Dactyl Ace Right"
+
+endif
+
+if SHIELD_DACTYL_ACE_LEFT || SHIELD_DACTYL_ACE_RIGHT
+
+    config ZMK_SPLIT
+        default y
+
+endif

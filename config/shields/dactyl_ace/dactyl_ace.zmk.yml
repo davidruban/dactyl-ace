@@ -1,0 +1,15 @@
+file_format: "1"
+id: dactyl_ace
+name: Dactyl Ace
+type: shield
+url: https://github.com/davidruban/dactyl-ace
+requires: [nice_nano_v2]
+features:
+ - Concave Keywell
+ - Kinesis Advantage (68) Keycap Support
+ - Wireless Split Connectivity
+ - Bluetooth Pairing
+ - Hotswap
+siblings:
+ - dactyl_ace_left
+ - dactyl_ace_right
