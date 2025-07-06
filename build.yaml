@@ -20,7 +20,7 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: dactyl_ace_right
+    shield: dactyl_ace_left
   - board: nice_nano_v2
     shield: dactyl_ace_right
   - board: nice_nano_v2
